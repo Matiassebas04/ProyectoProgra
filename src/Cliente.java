@@ -1,12 +1,11 @@
 public class Cliente {
     private String nombreCliente;
-    private String cedulaCliente;
+    private int cedulaCliente;
 
-    public Cliente(String nombreCliente, String cedulaCliente) {
+    public Cliente(String nombreCliente, int cedulaCliente) {
         this.nombreCliente = nombreCliente;
         this.cedulaCliente = cedulaCliente;
     }
-
 
     public String getNombreCliente() {
         return nombreCliente;
@@ -16,11 +15,11 @@ public class Cliente {
         this.nombreCliente = nombreCliente;
     }
 
-    public String getCedulaCliente() {
+    public int getCedulaCliente() {
         return cedulaCliente;
     }
 
-    public void setCedulaCliente(String cedulaCliente) {
+    public void setCedulaCliente(int cedulaCliente) {
         this.cedulaCliente = cedulaCliente;
     }
 }
